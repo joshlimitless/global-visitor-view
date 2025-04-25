@@ -2,26 +2,32 @@
   "compatibility_date": "2025-04-01",
   "main": "src/server/index.ts",
   "name": "global-visitor-sitethumbnail",
-  "migrations": 
- [
-  "assets": {
-    "directory": "public"
-  },
-  "build": {
-    "command": "npx esbuild src/client/index.tsx --bundle --outdir=public/dist --splitting --sourcemap --format=esm"
-  },
-  "durable_objects": {
-    "bindings": [
-      {
-        "class_name": "Globe",
-        "name": "Globe"
+  "migrations": [
+    {
+      "assets": {
+        "directory": "public"
       }
-    ]
-  },
-  "observability": {
-    "enabled": true
-  },
+    },
+    {
+      "build": {
+        "command": "npx esbuild src/client/index.tsx --bundle --outdir=public/dist --splitting --sourcemap --format=esm"
+      }
+    },
+    {
+      "durable_objects": {
+        "bindings": [
+          {
+            "class_name": "Globe",
+            "name": "Globe"
+          }
+        ]
+      }
+    },
+    {
+      "observability": {
+        "enabled": true
+      }
+    }
+  ],
   "upload_source_maps": true
-
-]
-},
+}
