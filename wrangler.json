@@ -1,7 +1,7 @@
 {
   "compatibility_date": "2025-04-01",
   "main": "src/server/index.ts",
-  "name": "global-visitor-views",
+  "name": "global",
   "migrations": [
     {
       "assets": {
