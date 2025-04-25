@@ -27,6 +27,5 @@
       "observability": {
         "enabled": true
       }
-  ]
   "upload_source_maps": true
 }
