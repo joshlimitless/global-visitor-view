@@ -3,10 +3,11 @@
   "main": "src/server/index.ts",
   "name": "global-visitor-sitethumbnail",
   "migrations": 
-  [
-      "tag": "<v1>",
-      "new_sqlite_classes": [
-        "<NewDurableObjectClass>"
+ [
+    {
+      "tag": "v1",
+      "new_classes": [
+        "MyDurableObject"
       ]
   [
     {
