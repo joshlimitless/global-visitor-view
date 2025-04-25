@@ -4,8 +4,6 @@
   "name": "global-visitor-sitethumbnail",
   "migrations": 
  [
-    {
-   
   "assets": {
     "directory": "public"
   },
@@ -25,4 +23,4 @@
   },
   "upload_source_maps": true
 }
-   }
+   
